@@ -5,6 +5,7 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
+        <script async type="text/javascript" src="/js/newrelic.js" />
           <script
             async
             src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS}`}
